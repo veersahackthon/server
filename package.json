@@ -1,0 +1,32 @@
+{
+  "name": "gillyweedbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cloudinary": "^1.28.1",
+    "connect-flash": "^0.1.1",
+    "cookie-session": "^2.0.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "cryptojs": "^2.5.3",
+    "dotenv": "^10.0.0",
+    "env": "0.0.2",
+    "express": "^4.17.2",
+    "flash": "^1.1.0",
+    "geoip-lite": "^1.4.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "nodemailer": "^6.7.2",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
